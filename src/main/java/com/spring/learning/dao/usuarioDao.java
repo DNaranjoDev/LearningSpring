@@ -6,4 +6,6 @@ import com.spring.learning.models.Usuario;
 
 public interface usuarioDao {
     List<Usuario> getUsuarios();
+
+    void eliminar(Long id);
 }
