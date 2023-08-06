@@ -27,5 +27,7 @@ async function registrarUsuario() {
         body: JSON.stringify(datos)
     });
     // const usuarios = await request.json(); 
+    alert("Se ha creado correctamente");
+    window.location.href="login.html";
 
 }
